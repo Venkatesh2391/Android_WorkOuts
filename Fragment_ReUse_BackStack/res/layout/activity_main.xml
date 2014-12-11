@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.example.vcf.MainActivity" 
+    android:background="@drawable/background">
+    
+    
+    <TextView
+            android:id="@+id/vc_title"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="welcome to VenkyChat"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    <LinearLayout 
+        android:id="@+id/hold_pan"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+  	    android:layout_height="fill_parent"
+      >
+
+    </LinearLayout>
+
+    
+
+</LinearLayout>
